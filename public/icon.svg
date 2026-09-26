@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="60%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#050711" />
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Dark Midnight Circle -->
+  <circle cx="256" cy="256" r="256" fill="url(#bgGrad)" />
+  
+  <!-- Sacred Geometry Outer Ring -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-dasharray="8 6" opacity="0.7" />
+  <circle cx="256" cy="256" r="190" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.5" />
+  
+  <!-- Overlapping Mystical Tarot Card Shapes -->
+  <g transform="translate(256, 256)">
+    <!-- Tilted Back Card -->
+    <rect x="-85" y="-125" width="170" height="250" rx="14" fill="#0f172a" stroke="url(#goldGrad)" stroke-width="2" transform="rotate(-15)" opacity="0.6" />
+    <!-- Tilted Forward Card -->
+    <rect x="-85" y="-125" width="170" height="250" rx="14" fill="#0f172a" stroke="url(#goldGrad)" stroke-width="2" transform="rotate(15)" opacity="0.6" />
+    
+    <!-- Central Pristine Tarot Card -->
+    <rect x="-85" y="-125" width="170" height="250" rx="14" fill="#090d16" stroke="url(#goldGrad)" stroke-width="4" />
+    <rect x="-75" y="-115" width="150" height="230" rx="10" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.6" />
+    
+    <!-- Sacred Star & All-Seeing Eye Centerpiece -->
+    <polygon points="0,-60 18,-18 60,-18 24,10 38,52 0,26 -38,52 -24,10 -60,-18 -18,-18" fill="url(#goldGrad)" opacity="0.3" />
+    <circle cx="0" cy="0" r="32" fill="#050711" stroke="url(#goldGrad)" stroke-width="3" />
+    
+    <!-- Radiant Sun Rays -->
+    <path d="M 0,-42 L 0,-34 M 0,34 L 0,42 M -42,0 L -34,0 M 34,0 L 42,0 M -28,-28 L -22,-22 M 22,22 L 28,28 M -28,28 L -22,22 M 22,-22 L 28,-28" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" />
+    
+    <!-- Center Mystic Eye Pupil -->
+    <ellipse cx="0" cy="0" rx="16" ry="10" fill="none" stroke="url(#goldGrad)" stroke-width="2" />
+    <circle cx="0" cy="0" r="5" fill="#fef08a" />
+    
+    <!-- Astrological Glyphs -->
+    <text x="0" y="85" text-anchor="middle" font-family="serif" font-size="16" font-weight="bold" fill="url(#goldGrad)" letter-spacing="4">MYSTIC</text>
+  </g>
+</svg>

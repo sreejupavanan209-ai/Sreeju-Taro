@@ -1,0 +1,6 @@
+{
+  "name": "The Mystic Cards",
+  "description": "Premium mystical tarot and Pythagorean numerology sanctuary featuring interactive hold-to-shuffle spreads, personalized AI tarot guidance, deep numerology forecasts, and professional consultation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
